@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    width:80vw;
+    max-width:300px;
+    background-color: white;
+    height:380px;
+    border-radius:10%;
+  
+}
+.display {
+    width:100%;
+    height:20%;
+    display:flex;
+    background-color:rgb(203, 243, 238);
+    justify-content: center;
+    align-items:center;
+
+}
+#display{
+    width:95%;
+    height: 85%;
+    padding:15px 20px;
+     border-radius:10px;
+     /* 0       → Left/Right shadow
+5px     → Upar/Neeche shadow
+10px    → Blur (kitni soft hogi)
+0       → Spread (kitni badi hogi)
+rgba(...) → Shadow ka color */
+     /* box-shadow: x-offset y-offset blur spread color; */
+     box-shadow:0 5px 10px 0 rgba(0,0,0,0.3) ;
+}
+.buttons{
+      width:100%;
+    height:80%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.row{
+ flex:1;
+}
