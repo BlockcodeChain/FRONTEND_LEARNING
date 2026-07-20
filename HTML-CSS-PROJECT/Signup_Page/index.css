@@ -8,7 +8,7 @@
 body{
     min-height: 100vh;
     
-    background-image: url(../Login_Page/image/space-galaxy.webp);
+    background-image: url(./image/space-galaxy.webp);
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -33,7 +33,7 @@ h1{
 .box{
       width:450px;
     max-width:90%;
-    padding:35px;
+    padding:15px;
     background:rgba(255,255,255,0.15);
     border:1px solid rgba(255,255,255,0.3);
     border-radius:15px;
@@ -44,4 +44,10 @@ h1{
     flex-direction:column;
     gap:25px;
     
+}
+.input-box{
+    width:100%;
+    background-Color:red;
+gap:10px;
+
 }
